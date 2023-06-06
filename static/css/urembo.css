@@ -1,0 +1,58 @@
+.fruits{
+    background-color: mediumslateblue;
+    border: 2px dotted cornflowerblue;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: "Abyssinica SIL";
+}
+.cars{
+    background-color: goldenrod;
+    border: 3px solid purple;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    font-family: FreeMono;
+}
+.FRUITS{
+    background-color: orangered;
+    border: 1px dotted blanchedalmond;
+    margin: 18px;
+    padding: 18px;
+    text-align: center;
+    font-family: C059;
+}
+#gari{
+     background-color: orangered;
+    border: 1px dotted blanchedalmond;
+    margin: 18px;
+    padding: 18px;
+    text-align: center;
+    font-family: C059;
+}
+#matunda {
+    background-color: chartreuse;
+    border: 1px dotted lightgray;
+    margin: 18px;
+    padding: 18px;
+    text-align: center;
+    font-family: C059;
+}
+ul{
+    list-style-type: none;
+    background-color: orangered;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+li,a{
+    padding: 10px;
+    display: block;
+    color: lightgray;
+    font-family: "Century Schoolbook L";
+
+}
+li a:hover{
+    color: mediumslateblue;
+}

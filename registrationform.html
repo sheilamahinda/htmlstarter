@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="static/css/formstyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>registration form</title>
+</head>
+<body>
+<div class="container">
+  <h2>registration</h2>
+  <form>
+    <div class="form-group">
+      <label for="username">Username:</label>
+      <input type="text"id="username"name="username" placeholder="your username" required>
+    </div>
+    <div class="form-group">
+    <label for="email">Email:</label>
+    <input type="email"id="email"name="email"placeholder="your email" required></div>
+    <div class="formgroup">
+      <label for="male">Male</label>
+      <input type="radio"id="male"name="gender">
+      <label for="female">Female</label>
+      <input type="radio"id="female"name="gender">
+      <label for="custom">Custom</label>
+      <input type="radio"id="custom"name="gender">
+    </div>
+    <div class="form-group">
+      <label for="date of birth">Date of birth</label>
+      <input type="date"id="date of birth"name="date of birth">
+    </div>
+    <div class="form-group">
+    <label for="password">Password:</label>
+    <input type="password"id="password"name="password"placeholder="password" required></div>
+    <div class="form-group">
+    <label for="confirm_password">Confirm password:</label>
+    <input type="password"id="confirm_password"name="confirm_password"placeholder="confirm password" required></div>
+    <div class="form-group">
+      <button type="submit">Register</button>
+    </div>
+  </form>
+
+</div>
+</body>
+</html>

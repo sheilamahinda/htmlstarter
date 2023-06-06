@@ -1,0 +1,40 @@
+.container{
+    max-width: 400px;
+    margin:0 auto ;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 60px;
+}
+.container h2{
+    text-align: center;
+}
+.form-group{
+    margin-bottom: 20px;
+}
+.form-group label{
+    margin-top: 5px;
+    display: block;
+    font-weight: bold;
+}
+.form-group input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid yellow;
+}
+.form-group button{
+    width: 100%;
+    padding: 10px;
+    background-color: blanchedalmond;
+    color: mediumslateblue;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.form-group button:hover{
+    background-color: peru;
+
+}
+body{
+
+}
